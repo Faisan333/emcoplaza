@@ -15,21 +15,21 @@
 body{display:flex;height:100vh;background:#f1f5f9;overflow:hidden}
 
 /* SIDEBAR */
-.sidebar{width:220px;background:#003626;color:#fff;display:flex;flex-direction:column;transition:.3s}
+.sidebar{width:220px;background:#1E88C7;color:#fff;display:flex;flex-direction:column;transition:.3s}
 .sidebar.collapsed{width:80px}
-.sidebar-brand{height:90px;display:flex;align-items:center;justify-content:center;border-bottom:1px solid #fff}
+.sidebar-brand{background:#fff;height:90px;display:flex;align-items:center;justify-content:center;border-bottom:1px solid #fff}
 .logo{width:200px}
 .sidebar-menu{list-style:none;padding:10px}
 .sidebar-menu a{display:flex;gap:10px;align-items:center;padding:12px;color:#fff;text-decoration:none;border-radius:8px;cursor:pointer}
-.sidebar-menu a.active,.sidebar-menu a:hover{background:#025b41}
+.sidebar-menu a.active,.sidebar-menu a:hover{background:#2BB3E6}
 .sidebar.collapsed span{display:none}
 
 /* MAIN */
 .main{flex:1;display:flex;flex-direction:column}
 
 /* NAVBAR */
-.navbar{height:70px;background:#003626;color:#fff;display:flex;justify-content:space-between;align-items:center;padding:0 20px;position:sticky;top:0}
-.nav-left i{cursor:pointer;font-size:20px}
+.navbar{height:70px;background:#FFFFFF;color:#1E88C7;display:flex;justify-content:space-between;align-items:center;padding:0 20px;position:sticky;top:0}
+.nav-left i{cursor:pointer;font-size:20px;color:#1E88C7}
 
 /* PROFILE */
 .profile-icon{width:45px;height:45px;border-radius:50%;overflow:hidden;border:2px solid #fff;cursor:pointer}
@@ -69,7 +69,7 @@ body{display:flex;height:100vh;background:#f1f5f9;overflow:hidden}
   transform: translateY(-5px);
   box-shadow: 0 15px 30px rgba(0,0,0,0.12);
 }
-.kpi i {font-size:24px;color:#003626;margin-bottom:10px;}
+.kpi i {font-size:24px;color:#1E88C7;margin-bottom:10px;}
 .kpi h4 {font-size:18px;color:#334155;margin-bottom:6px;}
 .kpi p {font-size:15px;font-weight:600;color:#0f172a;}
 
@@ -77,7 +77,7 @@ body{display:flex;height:100vh;background:#f1f5f9;overflow:hidden}
 .actions button {
   display:flex;align-items:center;gap:8px;
   padding:12px 20px;border:none;border-radius:10px;
-  cursor:pointer;background:#003626;color:#fff;font-weight:600;
+  cursor:pointer;background:#1E88C7;color:#fff;font-weight:600;
   transition:0.3s;
 }
 .actions button:hover {background:#025b41;}
@@ -123,7 +123,7 @@ body{display:flex;height:100vh;background:#f1f5f9;overflow:hidden}
   transform: translateY(-5px);
   box-shadow: 0 15px 30px rgba(0,0,0,0.12);
 }
-.kpi i {font-size:24px;color:#003626;margin-bottom:10px;}
+.kpi i {font-size:24px;color:#1E88C7;margin-bottom:10px;}
 .kpi h4 {font-size:16px;color:#334155;margin-bottom:6px;}
 .kpi p {font-size:15px;font-weight:600;color:#0f172a;}
 
@@ -131,7 +131,7 @@ body{display:flex;height:100vh;background:#f1f5f9;overflow:hidden}
 .actions button {
   display:flex;align-items:center;gap:8px;
   padding:12px 20px;border:none;border-radius:10px;
-  cursor:pointer;background:#003626;color:#fff;font-weight:600;
+  cursor:pointer;background:#1E88C7;color:#fff;font-weight:600;
   transition:0.3s;
 }
 .actions button:hover {background:#025b41;}
@@ -159,7 +159,7 @@ body{display:flex;height:100vh;background:#f1f5f9;overflow:hidden}
   padding: 12px 16px;
   border-radius: 10px;
   border: none;
-  background: #003626;
+  background: #1E88C7;
   color: #fff;
   cursor: pointer;
 }
@@ -229,7 +229,7 @@ body{display:flex;height:100vh;background:#f1f5f9;overflow:hidden}
 
 .dev-card p {
   font-size: 12px;
-  color: #94a3b8;
+  color: #FFF;
 }
 
 .dev-card a {
